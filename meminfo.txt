@@ -1,4 +1,0 @@
-Project 1 Specification.pdf
-README.md
-cpuinfo.txt
-meminfo.txt
