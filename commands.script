@@ -1,0 +1,27 @@
+Script started on 2023-01-22 16:41:28+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="26"]
+]0;root@1a47c3fd1f43: ~root@1a47c3fd1f43:~# cd Desktop
+]0;root@1a47c3fd1f43: ~/Desktoproot@1a47c3fd1f43:~/Desktop# ls
+[0m[01;34mcomp3500[0m
+]0;root@1a47c3fd1f43: ~/Desktoproot@1a47c3fd1f43:~/Desktop# cd comp3500
+]0;root@1a47c3fd1f43: ~/Desktop/comp3500root@1a47c3fd1f43:~/Desktop/comp3500# ls
+'Project 1 Specification.pdf'   cpuinfo.txt      lspci.txt
+ README.md                      interrupts.txt   meminfo.txt
+]0;root@1a47c3fd1f43: ~/Desktop/comp3500root@1a47c3fd1f43:~/Desktop/comp3500# cd ..
+]0;root@1a47c3fd1f43: ~/Desktoproot@1a47c3fd1f43:~/Desktop# cd ..
+]0;root@1a47c3fd1f43: ~root@1a47c3fd1f43:~# mv [K[K[Kls
+[0m[01;34mDesktop[0m  commands.script  cpu.c
+]0;root@1a47c3fd1f43: ~root@1a47c3fd1f43:~# mv commands.script Desktop
+]0;root@1a47c3fd1f43: ~root@1a47c3fd1f43:~# cd Desktop
+]0;root@1a47c3fd1f43: ~/Desktoproot@1a47c3fd1f43:~/Desktop# ls
+commands.script  [0m[01;34mcomp3500[0m
+]0;root@1a47c3fd1f43: ~/Desktoproot@1a47c3fd1f43:~/Desktop# mv commands.script comp3500
+]0;root@1a47c3fd1f43: ~/Desktoproot@1a47c3fd1f43:~/Desktop# ls
+[0m[01;34mcomp3500[0m
+]0;root@1a47c3fd1f43: ~/Desktoproot@1a47c3fd1f43:~/Desktop# cd comp3500
+]0;root@1a47c3fd1f43: ~/Desktop/comp3500root@1a47c3fd1f43:~/Desktop/comp3500# ls
+'Project 1 Specification.pdf'   commands.script   interrupts.txt   meminfo.txt
+ README.md                      cpuinfo.txt       lspci.txt
+]0;root@1a47c3fd1f43: ~/Desktop/comp3500root@1a47c3fd1f43:~/Desktop/comp3500# exit
+exit
+
+Script done on 2023-01-22 16:42:31+00:00 [COMMAND_EXIT_CODE="0"]
