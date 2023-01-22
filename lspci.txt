@@ -1,0 +1,15 @@
+commands.script
+cpuinfo.txt
+Desktop
+Documents
+Downloads
+interrupts.txt
+lspci.txt
+meminfo.txt
+Music
+Pictures
+Public
+recovery.key
+snap
+Templates
+Videos
