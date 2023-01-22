@@ -1,0 +1,171 @@
+Script started on 2023-01-22 15:43:23-05:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="79" LINES="29"]
+[?2004h]0;ubuntu@ubuntu: ~/Desktop/comp3500/project1/comp3500[01;32mubuntu@ubuntu[00m:[01;34m~/Desktop/comp3500/project1/comp3500[00m$ git add interrupts.txt
+[?2004l[?2004h]0;ubuntu@ubuntu: ~/Desktop/comp3500/project1/comp3500[01;32mubuntu@ubuntu[00m:[01;34m~/Desktop/comp3500/project1/comp3500[00m$ git add lspci.txt
+[?2004l[?2004h]0;ubuntu@ubuntu: ~/Desktop/comp3500/project1/comp3500[01;32mubuntu@ubuntu[00m:[01;34m~/Desktop/comp3500/project1/comp3500[00m$ git add meminfo.txt
+[?2004l[?2004h]0;ubuntu@ubuntu: ~/Desktop/comp3500/project1/comp3500[01;32mubuntu@ubuntu[00m:[01;34m~/Desktop/comp3500/project1/comp3500[00m$ git status
+[?2004lOn branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   interrupts.txt[m
+	[32mnew file:   lspci.txt[m
+	[32mnew file:   meminfo.txt[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   commands.script[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mCONTRIBUTING.md[m
+	[31mOpen script[m
+	[31mgit.script[m
+
+[?2004h]0;ubuntu@ubuntu: ~/Desktop/comp3500/project1/comp3500[01;32mubuntu@ubuntu[00m:[01;34m~/Desktop/comp3500/project1/comp3500[00m$ git commit -m "files"
+[?2004l[main 3ac6fd2] files
+ 3 files changed, 42 insertions(+)
+ create mode 100644 interrupts.txt
+ create mode 100644 lspci.txt
+ create mode 100644 meminfo.txt
+[?2004h]0;ubuntu@ubuntu: ~/Desktop/comp3500/project1/comp3500[01;32mubuntu@ubuntu[00m:[01;34m~/Desktop/comp3500/project1/comp3500[00m$ git push
+[?2004lUsername for 'https://github.com': acsharrison
+Password for 'https://acsharrison@github.com': 
+Enumerating objects: 10, done.
+Counting objects:  10% (1/10)Counting objects:  20% (2/10)Counting objects:  30% (3/10)Counting objects:  40% (4/10)Counting objects:  50% (5/10)Counting objects:  60% (6/10)Counting objects:  70% (7/10)Counting objects:  80% (8/10)Counting objects:  90% (9/10)Counting objects: 100% (10/10)Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects:  11% (1/9)Compressing objects:  22% (2/9)Compressing objects:  33% (3/9)Compressing objects:  44% (4/9)Compressing objects:  55% (5/9)Compressing objects:  66% (6/9)Compressing objects:  77% (7/9)Compressing objects:  88% (8/9)Compressing objects: 100% (9/9)Compressing objects: 100% (9/9), done.
+Writing objects:  11% (1/9)Writing objects:  22% (2/9)Writing objects:  33% (3/9)Writing objects:  44% (4/9)Writing objects:  66% (6/9)Writing objects:  77% (7/9)Writing objects:  88% (8/9)Writing objects: 100% (9/9)Writing objects: 100% (9/9), 1.04 KiB | 1.04 MiB/s, done.
+Total 9 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/4)[Kremote: Resolving deltas:  25% (1/4)[Kremote: Resolving deltas:  50% (2/4)[Kremote: Resolving deltas:  75% (3/4)[Kremote: Resolving deltas: 100% (4/4)[Kremote: Resolving deltas: 100% (4/4), done.[K
+To https://github.com/acsharrison/comp3500
+   4e3e21c..3ac6fd2  main -> main
+[?2004h]0;ubuntu@ubuntu: ~/Desktop/comp3500/project1/comp3500[01;32mubuntu@ubuntu[00m:[01;34m~/Desktop/comp3500/project1/comp3500[00m$ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   commands.script[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mCONTRIBUTING.md[m
+	[31mOpen script[m
+	[31mgit.script[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;ubuntu@ubuntu: ~/Desktop/comp3500/project1/comp3500[01;32mubuntu@ubuntu[00m:[01;34m~/Desktop/comp3500/project1/comp3500[00m$ git log
+[?2004l[?1h=[33mcommit 3ac6fd2a7525f160a5b2ca60487d2dbe8670bca9[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31mori[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31m[m[33m[m[1;31mgin/HEAD[m[33m)[m[m
+Author: acsharrison <sophiearabelle10@gmail.com>[m
+Date:   Sun Jan 22 15:44:16 2023 -0500[m
+[m
+    files[m
+[m
+[33mcommit 3a8d5161274dad3298c7638ed8e2e3a80f9442fb[m[m
+Author: acsharrison <sophiearabelle10@gmail.com>[m
+Date:   Sun Jan 22 15:42:30 2023 -0500[m
+[m
+    first commit[m
+[m
+[33mcommit 4e3e21c4ce6d781395ef57e50b89b756106758fd[m[m
+Author: Sophie <82679945+acsharrison@users.noreply.github.com>[m
+Date:   Sun Jan 22 12:47:02 2023 -0600[m
+[m
+    Delete git.script[m
+[m
+[33mcommit 2e0a102c48c37e057dcf3eb4fc4fe990848741ff[m[m
+Author: Sophie <82679945+acsharrison@users.noreply.github.com>[m
+Date:   Sun Jan 22 12:46:57 2023 -0600[m
+[m
+    Delete interrupts.txt[m
+[m
+[33mcommit 4309a204684c0cd6bd69dcfbcf5aa849d0cb718c[m[m
+Author: Sophie <82679945+acsharrison@users.noreply.github.com>[m
+Date:   Sun Jan 22 12:46:51 2023 -0600[m
+:[K[K[?1l>[?2004h]0;ubuntu@ubuntu: ~/Desktop/comp3500/project1/comp3500[01;32mubuntu@ubuntu[00m:[01;34m~/Desktop/comp3500/project1/comp3500[00m$ git clone httpd[Ks://github.co m/acsharrison
+[?2004lCloning into 'acsharrison'...
+remote: Not Found
+fatal: repository 'https://github.com/acsharrison/' not found
+[?2004h]0;ubuntu@ubuntu: ~/Desktop/comp3500/project1/comp3500[01;32mubuntu@ubuntu[00m:[01;34m~/Desktop/comp3500/project1/comp3500[00m$ git clone https://github.com/acsharrison/comp3500
+[?2004lCloning into 'comp3500'...
+Username for 'https://github.com': acsharrison
+Password for 'https://acsharrison@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/acsharrison/comp3500/'
+[?2004h]0;ubuntu@ubuntu: ~/Desktop/comp3500/project1/comp3500[01;32mubuntu@ubuntu[00m:[01;34m~/Desktop/comp3500/project1/comp3500[00m$ ls 
+[?2004l commands.script   cpuinfo.txt      meminfo.txt                    simple.c
+ [0m[01;34mcomp3500[0m          git.script      'Open script'
+ contributing.md   interrupts.txt  'Project 1 Specification.pdf'
+ CONTRIBUTING.md   lspci.txt        README.md
+[?2004h]0;ubuntu@ubuntu: ~/Desktop/comp3500/project1/comp3500[01;32mubuntu@ubuntu[00m:[01;34m~/Desktop/comp3500/project1/comp3500[00m$ ls > contributing[K[K[K[K[K[Kbuting.md
+[?2004l[?2004h]0;ubuntu@ubuntu: ~/Desktop/comp3500/project1/comp3500[01;32mubuntu@ubuntu[00m:[01;34m~/Desktop/comp3500/project1/comp3500[00m$ ls
+[?2004l commands.script   cpuinfo.txt      meminfo.txt                    simple.c
+ [0m[01;34mcomp3500[0m          git.script      'Open script'
+ contributing.md   interrupts.txt  'Project 1 Specification.pdf'
+ CONTRIBUTING.md   lspci.txt        README.md
+[?2004h]0;ubuntu@ubuntu: ~/Desktop/comp3500/project1/comp3500[01;32mubuntu@ubuntu[00m:[01;34m~/Desktop/comp3500/project1/comp3500[00m$ git diff
+[?2004l[?1h=[1mdiff --git a/commands.script b/commands.script[m[m
+[1mindex 0a475b2..7329626 100644[m[m
+[1m--- a/commands.script[m[m
+[1m+++ b/commands.script[m[m
+[36m@@ -1,27 +1,5 @@[m[m
+[31m-Script started on 2023-01-22 16:41:28+00:00 [TERM="xterm-256color" TTY="/dev/p[m [31mts/0" COLUMNS="80" LINES="26"][m[m
+[31m-oot@1a47c3fd1f43: ~[7m^G[27mroot@1a47c3fd1f43:~# cd Desktop[m[m
+[31m-oot@1a47c3fd1f43: ~/Desktop[7m^G[27mroot@1a47c3fd1f43:~/Desktop# ls[m[m
+[31m-[0m[01;34mcomp3500[0m[m[m
+[31m-oot@1a47c3fd1f43: ~/Desktop[7m^G[27mroot@1a47c3fd1f43:~/Desktop# cd comp3500[m[m
+[31m-oot@1a47c3fd1f43: ~/Desktop/comp3500[7m^G[27mroot@1a47c3fd1f43:~/Desktop/comp3500# ls[m[m
+[31m-'Project 1 Specification.pdf'   cpuinfo.txt      lspci.txt[m[m
+[31m- README.md                      interrupts.txt   meminfo.txt[m[m
+[31m-oot@1a47c3fd1f43: ~/Desktop/comp3500[7m^G[27mroot@1a47c3fd1f43:~/Desktop/comp3500# cd[m [31m ..[m[m
+[31m-oot@1a47c3fd1f43: ~/Desktop[7m^G[27mroot@1a47c3fd1f43:~/Desktop# cd ..[m[m
+[31m-oot@1a47c3fd1f43: ~[7m^G[27mroot@1a47c3fd1f43:~# ls[m[m
+[31m-[0m[01;34mDesktop[0m  commands.script  cpu.c[m[m
+[31m-oot@1a47c3fd1f43: ~[7m^G[27mroot@1a47c3fd1f43:~# mv commands.script Desktop[m[m
+[31m-oot@1a47c3fd1f43: ~[7m^G[27mroot@1a47c3fd1f43:~# cd Desktop[m[m
+[31m-oot@1a47c3fd1f43: ~/Desktop[7m^G[27mroot@1a47c3fd1f43:~/Desktop# ls[m[m
+[31m-commands.script  [0m[01;34mcomp3500[0m[m[m
+[31m-oot@1a47c3fd1f43: ~/Desktop[7m^G[27mroot@1a47c3fd1f43:~/Desktop# mv commands.script c[m [31momp3500[m[m
+[31m-oot@1a47c3fd1f43: ~/Desktop[7m^G[27mroot@1a47c3fd1f43:~/Desktop# ls[m[m
+[31m-[0m[01;34mcomp3500[0m[m[m
+[31m-oot@1a47c3fd1f43: ~/Desktop[7m^G[27mroot@1a47c3fd1f43:~/Desktop# cd comp3500[m[m
+:[K[K[31m-oot@1a47c3fd1f43: ~/Desktop/comp3500[7m^G[27mroot@1a47c3fd1f43:~/Desktop/comp3500# ls[m[m
+[31m-'Project 1 Specification.pdf'   commands.script   interrupts.txt   meminfo.txt[m[m
+[31m- README.md                      cpuinfo.txt       lspci.txt[m[m
+[31m-oot@1a47c3fd1f43: ~/Desktop/comp3500[7m^G[27mroot@1a47c3fd1f43:~/Desktop/comp3500# ex[m [31mit[m[m
+[31m-exit[m[m
+[32m+[m[32mScript started on 2023-01-22 14:45:54-05:00 [TERM="xterm-256color" TTY="/dev/p[m [32m[m[32mts/0" COLUMNS="79" LINES="29"][m[m
+[32m+[m[32mbuntu@ubuntu: ~[7m^G[27m[01;32mubuntu@ubuntu[00m:[01;34m~[00m$ exit[m[41m[7m^M[27m[m[m
+[32m+[m[32m[7m^M[27mexit[m[41m[7m^M[27m[m[m
+ [m[m
+[31m-Script done on 2023-01-22 16:42:31+00:00 [COMMAND_EXIT_CODE="0"][m[m
+[32m+[m[32mScript done on 2023-01-22 14:46:07-05:00 [COMMAND_EXIT_CODE="0"][m[m
+[1mdiff --git a/contributing.md b/contributing.md[m[m
+[1mindex 8d0b7de..e090182 100644[m[m
+[1m--- a/contributing.md[m[m
+[1m+++ b/contributing.md[m[m
+[36m@@ -1,11 +1,13 @@[m[m
+[31m-Project 1 Specification.pdf[m[m
+[31m-README.md[m[m
+ commands.script[m[m
+ comp3500[m[m
+ contributing.md[m[m
+[32m+[m[32mCONTRIBUTING.md[m[m
+ cpuinfo.txt[m[m
+ git.script[m[m
+ interrupts.txt[m[m
+ lspci.txt[m[m
+:[K[K meminfo.txt[m[m
+[32m+[m[32mOpen script[m[m
+[32m+[m[32mProject 1 Specification.pdf[m[m
+[32m+[m[32mREADME.md[m[m
+ simple.c[m[m
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[?1l>[?2004h]0;ubuntu@ubuntu: ~/Desktop/comp3500/project1/comp3500[01;32mubuntu@ubuntu[00m:[01;34m~/Desktop/comp3500/project1/comp3500[00m$ exit
+[?2004lexit
+
+Script done on 2023-01-22 15:49:08-05:00 [COMMAND_EXIT_CODE="0"]
