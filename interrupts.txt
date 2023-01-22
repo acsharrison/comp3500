@@ -1,0 +1,32 @@
+           CPU0       CPU1       CPU2       CPU3       
+  0:         30          0          0          0   IO-APIC   2-edge      timer
+  1:          0          0          0      11243   IO-APIC   1-edge      i8042
+  8:          0          0          0          0   IO-APIC   8-edge      rtc0
+  9:          0          0          0          0   IO-APIC   9-fasteoi   acpi
+ 12:          0          0       4238          0   IO-APIC  12-edge      i8042
+ 14:          0          0          0          0   IO-APIC  14-edge      ata_piix
+ 15:          0          0          0     156912   IO-APIC  15-edge      ata_piix
+ 18:          0     127478        904          0   IO-APIC  18-fasteoi   vmwgfx
+ 19:          1          0          0     130834   IO-APIC  19-fasteoi   ehci_hcd:usb1, enp0s3
+ 20:          0          0          0      43199   IO-APIC  20-fasteoi   vboxguest
+ 21:          0       1937     323336          0   IO-APIC  21-fasteoi   ahci[0000:00:0d.0], snd_intel8x0
+ 22:          4         29          0          0   IO-APIC  22-fasteoi   ohci_hcd:usb2
+NMI:          0          0          0          0   Non-maskable interrupts
+LOC:    2561035     646874     610053     598057   Local timer interrupts
+SPU:          0          0          0          0   Spurious interrupts
+PMI:          0          0          0          0   Performance monitoring interrupts
+IWI:          0          0          0          0   IRQ work interrupts
+RTR:          0          0          0          0   APIC ICR read retries
+RES:      10187      12025      15045      16537   Rescheduling interrupts
+CAL:    1553506    1461605    1387249    1395400   Function call interrupts
+TLB:      29605      25754      27627      31528   TLB shootdowns
+TRM:          0          0          0          0   Thermal event interrupts
+THR:          0          0          0          0   Threshold APIC interrupts
+DFR:          0          0          0          0   Deferred Error APIC interrupts
+MCE:          0          0          0          0   Machine check exceptions
+MCP:         21         21         21         21   Machine check polls
+ERR:          0
+MIS:        737
+PIN:          0          0          0          0   Posted-interrupt notification event
+NPI:          0          0          0          0   Nested posted-interrupt event
+PIW:          0          0          0          0   Posted-interrupt wakeup event
