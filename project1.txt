@@ -15,6 +15,8 @@ Part 2:
 
 I kept running into an issues here were the info wouldnt save but then i realized i had to use more /proc/cpuinfo > cpuinfo.txt. Once that was done I got through making the files very fast and uploading them.
 
+Part 3:
+I ended up switching to VMWare fusion because visual studio wasn't working. I ended the code inside of the ubuntu terminal using vim. Once I got the hang of using the gdb functions it went along smoothly.
 
 part 4:
 I had an issue where github wasn't taking my password so I ended up having to create a personal access token to push to github. I felt kept going back and forth trying to figure out how to use the commands here so I feel like my git.script doesnt hold it all. I tried stopping and starting the script too. I also ran into an issue where a .git verson was already running so i had to user orgin master to back log. Leanred that shift : q closes the terminal and :wq saves it during this. 
