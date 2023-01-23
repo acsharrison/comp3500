@@ -1,7 +1,29 @@
 I started the project using ubuntu through sa docker containter and running it as a 1080 host. Due to slow speed and it issues with running my script i switched to using ubuntu through virtual box. 
+---------------------------------------------
+Output:
 
-
-
+Breakpoint 1, main () at simple.c:3
+3	int main() {
+(gdb) n
+4	   double arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
+(gdb) s
+5	   double sum=0;
+(gdb) c
+Continuing.
+arr[0]=1.00, sum=1.00
+arr[1]=2.00, sum=3.00
+arr[2]=3.00, sum=6.00
+arr[3]=4.00, sum=10.00
+arr[4]=5.00, sum=15.00
+arr[5]=6.00, sum=21.00
+arr[6]=7.00, sum=28.00
+arr[7]=8.00, sum=36.00
+arr[8]=9.00, sum=45.00
+arr[9]=0.00, sum=45.00
+Average of array values is: 4.50
+f[Inferior 1 (process 64705) exited normally]
+(gdb) run
+----------------------------------------------------
 
 
 
